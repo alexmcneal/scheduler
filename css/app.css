@@ -1,0 +1,27 @@
+
+.scheduler-header {
+	background-color: #e9e4d3;
+	height: 50px;
+	line-height: 50px;
+}
+
+.job-list-header {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+.job-list {
+	border-top: 1px solid #969696;
+	height: 60px;
+}
+
+.job-list-time {
+	font-size: 16px;
+}
+
+.job-list-title {
+	font-size: 30px;
+}
