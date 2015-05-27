@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Jobs</title>
+
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/simple-sidebar.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<!-- Menu -->
+	<div id="sidebar-wrapper">
+		<ul class="sidebar-nav">
+			<li class="active">
+				<a href="#">Jobs</a>
+			</li>
+			<li>
+				<a href="#">Add Job</a>
+			</li>
+			<li>
+				<a href="#">Job History</a>
+			</li>
+			<li>
+				<a href="#">Settings</a>
+			</li>
+			<li>
+				<a href="#">Help</a>
+			</li>
+		</ul>
+	</div>
+	<!-- /Menu -->
+
+	<br>
+	<br>
+
+	<!-- Page Content -->
+	<div id="page-content-wrapper">
+		<div class="container" style="border: 1px solid red;">
+
+			<!-- Header Bar -->
+			<div>
+				<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a>
+			</div>
+			<!-- /Header Bar -->
+
+			<br>
+			<br>
+
+			<!-- Today's Jobs -->
+			<div class="row">
+				<div class="col-sm-1 col-xs-2 job-list-header">
+					Today
+				</div>
+			</div>
+
+			<div class="row job-list">
+				<div class="col-sm-1 col-xs-2 job-list-time">
+					10:00
+				</div>
+
+				<div class="col-sm-11 col-xs-10 job-list-title">
+					Miller House
+				</div>
+			</div>
+			<!-- /Today's Jobs -->
+
+			<br>
+			<br>
+
+			<!-- Tomorrow's Jobs -->
+			<div class="row">
+				<div class="col-sm-1 col-xs-2 job-list-header">
+					Tomorrow
+				</div>
+			</div>
+
+			<div class="row job-list">
+				<div class="col-sm-1 col-xs-2 job-list-time">
+					10:00
+				</div>
+
+				<div class="col-sm-11 col-xs-10 job-list-title">
+					Miller House
+				</div>
+			</div>
+			<!-- /Tomorrow's Jobs -->
+
+			<br>
+			<br>
+
+		</div>
+	</div>
+	<!-- /Page Content -->
+
+
+</div>
+<!-- /#wrapper -->
+
+
+
+<!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+<!-- /Menu Toggle Script -->
+
+
+</body>
+
+</html>
