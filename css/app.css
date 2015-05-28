@@ -1,27 +1,91 @@
 
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+/*
+Roboto Thin - 100
+Roboto Light - 300
+Roboto Regular - 400
+Roboto Medium - 500
+Roboto Bold - 700
+Roboto Black - 900
+*/
+
+/* jl = Job List */
+/* jd = Job Details */
+
+
+
+/* Sidebar Nav */
+
+.menu-back {
+	height: 50px;
+	width:  50px;
+}
+
+.sidebar-nav-header {
+	text-indent: 20px;
+	line-height: 70px;
+	background-color: #188261;
+	color: #fff;
+	font-weight: 100;
+	font-size: 22px;
+}
+
+/* /Sidebar Nav */
+
+
 .scheduler-header {
 	background-color: #e9e4d3;
 	height: 50px;
 	line-height: 50px;
 }
 
-.job-list-header {
+.scheduler-header .btn {
+	background-color: transparent;
+	font-size: 24px;
+	height: 50px;
+	width: 50px;
+}
+
+.jl-today-header {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 12px;
-	margin-top: 25px;
-	margin-bottom: 5px;
+	margin-top: 35px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #969696;
 }
 
-.job-list {
-	border-top: 1px solid #969696;
-	height: 60px;
+.jl-today-row {
+	border-bottom: 1px solid #969696;
+	height: 70px;
+	line-height: 70px;
 }
 
-.job-list-time {
-	font-size: 16px;
+.jl-time {
+	font-size: 14px;
 }
 
-.job-list-title {
-	font-size: 30px;
+.jl-title {
+	font-size: 26px;
+	font-weight: 300;
 }
+
+.jl-tom-header {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 60px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #969696;
+}
+
+.jl-tom-row {
+	border-bottom: 1px solid #969696;
+	height: 40px;
+	line-height: 40px;
+}
+
+.jl-tom-title {
+	font-size: 14px;
+}
+
