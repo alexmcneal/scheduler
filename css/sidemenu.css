@@ -27,15 +27,16 @@ Roboto Black - 900
     text-decoration: none;
 }
 
-.sidebar-nav a li {
-	text-indent: 20px;
+.sidebar-nav li {
+    border-bottom: 1px solid #b2b2b2;
+        text-indent: 20px;
     line-height: 65px;
     font-weight: 300;
     font-size: 24px;
-    border-bottom: 1px solid #b2b2b2;
+    height: 65px;
 }
 
-.sidebar-nav a li:active {
+.sidebar-nav li:active {
     background-color: #ededed;
 }
 

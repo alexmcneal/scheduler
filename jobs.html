@@ -31,31 +31,46 @@
 			Main Menu
 		</div>
 		<ul class="sidebar-nav">
-			<a href="jobs.html">
-				<li class="active">
-					Jobs
-				</li>
-			</a>
-			<a href="add-job.html">
-				<li>
-					Add Job
-				</li>
-			</a>
-			<a href="#">
-				<li>
-					Job History
-				</li>
-			</a>
-			<a href="#">
-				<li>
-					Settings
-				</li>
-			</a>
-			<a href="#">
-				<li>
-					Help
-				</li>
-			</a>
+			<li>
+				<a href="jobs.html">
+					<i class="material-icons md-36 menu-icon pull-left">list</i>
+					<div>
+						Jobs
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="jobs.html">
+					<i class="material-icons md-36 menu-icon pull-left">add_circle</i>
+					<div>
+						Add Job
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="jobs.html">
+					<i class="material-icons md-36 menu-icon pull-left">history</i>
+					<div>
+						Job History
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="jobs.html">
+					<i class="material-icons md-36 menu-icon pull-left">settings</i>
+					<div>
+						Settings
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="jobs.html">
+					<i class="material-icons md-36 menu-icon pull-left">help</i>
+					<div>
+						Help
+					</div>
+				</a>
+			</li>
 		</ul>
 	</div>
 	<!-- /Menu -->
@@ -67,10 +82,10 @@
 			<!-- App Header Bar -->
 			<div class="row scheduler-header">
 				<button type="button" class="btn" id="menu-toggle">
-					<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="false"></span>
+					<i class="material-icons md-36">menu</i>
 				</button>
 				<button type="button" class="btn pull-right" data-toggle="modal" data-target="#myModal">
-					<span class="glyphicon glyphicon-plus"></span>
+					<i class="material-icons md-36">add_circle</i>
 				</button>
 			</div>
 			<!-- /App Header Bar -->
@@ -180,14 +195,7 @@
 
 <!-- Menu Toggle Script -->
     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#page-content-wrapper").toggleClass("toggled");
-    });
-    </script>
-
-    <script>
-    $("#menu-back-toggle").click(function(e) {
+    $("#menu-toggle, #menu-back-toggle").click(function(e) {
         e.preventDefault();
         $("#page-content-wrapper").toggleClass("toggled");
     });
@@ -208,7 +216,7 @@
 			</div>
 			<div class="modal-body">
 				<div>
-					<div class="scheduler-icon svg-ic_event_24px" style="border: 1px solid red;"></div>
+					<i class="material-icons md-36">add_circle</i>
 					<input type="text" class="form-control" placeholder="Date">
 				</div>
 				<input type="text" class="form-control" placeholder="Time">
