@@ -1586,6 +1586,7 @@ pre code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  background-color: #fff;
 }
 .row {
   margin-left: -15px;
@@ -5722,6 +5723,7 @@ button.close {
 .modal-dialog {
   position: relative;
   width: auto;
+  height: 100%;
 }
 .modal-content {
   position: relative;
@@ -5739,6 +5741,7 @@ button.close {
   background-color: #ffffff;
   background-clip: padding-box;
   outline: 0;
+  height: 100%;
 }
 .modal-backdrop {
   position: fixed;
@@ -5817,8 +5820,9 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
-    margin: 30px auto;
+    width: auto;
+    margin: auto;
+    height: 100%;
   }
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);

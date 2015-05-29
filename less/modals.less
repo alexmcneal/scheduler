@@ -44,6 +44,7 @@
 .modal-dialog {
   position: relative;
   width: auto;
+  height: 100%
 }
 
 // Actual modal
@@ -66,6 +67,7 @@
   background-clip: padding-box;
   // Remove focus outline from opened modal
   outline: 0;
+  height: 100%
 }
 
 // Modal background
@@ -171,8 +173,9 @@
 @media (min-width: @screen-sm-min) {
   // Automatically set modal's width for larger viewports
   .modal-dialog {
-    width: @modal-md;
-    margin: 30px auto;
+    width: auto;
+    margin: auto;
+    height: 100%
   }
   .modal-content {
     .box-shadow(0 5px 15px rgba(0,0,0,.5));

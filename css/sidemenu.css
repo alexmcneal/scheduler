@@ -1,0 +1,57 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+/*
+Roboto Thin - 100
+Roboto Light - 300
+Roboto Regular - 400
+Roboto Medium - 500
+Roboto Bold - 700
+Roboto Black - 900
+*/
+
+
+#sidebar-wrapper {
+    position: fixed;
+    width: 100%;
+}
+
+.sidebar-nav {
+	width: 100%;
+    margin: 0;
+    padding: 0;
+	list-style: none;
+}
+
+.sidebar-nav a {
+    color: #242424;
+    text-decoration: none;
+}
+
+.sidebar-nav a li {
+	text-indent: 20px;
+    line-height: 65px;
+    font-weight: 300;
+    font-size: 24px;
+    border-bottom: 1px solid #b2b2b2;
+}
+
+.sidebar-nav a li:active {
+    background-color: #ededed;
+}
+
+#page-content-wrapper {
+    position: absolute;
+    width: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#page-content-wrapper.toggled {
+	margin-left: 95%;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}

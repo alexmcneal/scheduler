@@ -30,18 +30,19 @@ Roboto Black - 900
 }
 
 #sidebar-wrapper {
-    z-index: 1000;
+    z-index: -1000;
     position: fixed;
-    left: 250px;
-    width: 0;
+  /*left: 250px;*/
+    width: 95%;
     height: 100%;
-    margin-left: -250px;
+    top: 25px; /* TEMPORARY */
+  /*margin-left: -250px;*/
     overflow-y: auto;
     background: #fff;
-    -webkit-transition: all 0.5s ease;
+  /*-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease;*/
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -50,7 +51,11 @@ Roboto Black - 900
 
 #page-content-wrapper {
     width: 100%;
-    position: absolute;
+    position: fixed;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -110,7 +115,7 @@ Roboto Black - 900
 
 @media(min-width:768px) {
     #wrapper {
-        padding-left: 250px;
+        padding-left: -250px;
     }
 
     #wrapper.toggled {
@@ -118,7 +123,7 @@ Roboto Black - 900
     }
 
     #sidebar-wrapper {
-        width: 250px;
+        width: 95%;
     }
 
     #wrapper.toggled #sidebar-wrapper {
