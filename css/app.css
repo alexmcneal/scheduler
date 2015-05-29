@@ -19,6 +19,7 @@ Roboto Black - 900
 .menu-back {
 	height: 50px;
 	width:  50px;
+	background-color: #188261;
 }
 
 .sidebar-nav-header {
@@ -89,3 +90,7 @@ Roboto Black - 900
 	font-size: 14px;
 }
 
+.scheduler-icon {
+	height: 50px;
+	width:  50px;
+}
