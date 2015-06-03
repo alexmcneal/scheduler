@@ -2525,17 +2525,18 @@ output {
   padding-top: 7px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555555;
+  color: #424242;
 }
 .form-control {
   display: block;
   width: 100%;
   height: 34px;
   padding: 6px 0px;
-  margin-top: 15px;
-  font-size: 14px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 200;
   line-height: 1.42857143;
-  color: #555555;
+  color: #424242;
   background-color: transparent;
   background-image: none;
   border: 0px solid #cccccc;
@@ -2974,7 +2975,7 @@ select[multiple].form-group-lg .form-control {
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
   vertical-align: middle;
@@ -3785,7 +3786,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
-  color: #555555;
+  color: #424242;
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #cccccc;
@@ -5661,7 +5662,7 @@ a.list-group-item-danger.active:focus {
   border-radius: 0px;
 }
 .close {
-  float: right;
+  float: left;
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
@@ -5741,7 +5742,6 @@ button.close {
   background-color: #ffffff;
   background-clip: padding-box;
   outline: 0;
-  height: 100%;
 }
 .modal-backdrop {
   position: fixed;
@@ -5776,6 +5776,7 @@ button.close {
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+  font-weight: 100;
 }
 .modal-body {
   position: relative;

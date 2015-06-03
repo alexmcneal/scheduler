@@ -11,6 +11,7 @@ Roboto Black - 900
 
 /* jl = Job List */
 /* jd = Job Details */
+/* sc = Scheduler */
 
 
 
@@ -122,3 +123,50 @@ Roboto Black - 900
 }
 
 /* /Job List Page */
+
+
+
+/* Add Job Modal */
+
+.add-job-modal-header .modal-title {
+	line-height: 1.5;
+	margin-left: 45px;
+}
+
+.add-job-job-name {
+	background-color: #ededed;
+}
+
+.add-job-list li {
+	list-style: none;
+}
+
+ul {
+	-webkit-padding-start: 0px;
+}
+
+.form-control:focus {
+	outline: 0;
+	border-color: #939393;
+	box-shadow: none;
+}
+
+.sc-button {
+	padding: 15px 50px;
+}
+
+.sc-modal-button {
+	padding: 15px 50px;
+}
+
+.add-job-modal-footer .btn-default:hover {
+	background-color: #ffffff;
+}
+
+.btn:active {
+	box-shadow: inset 0px 0px 0px 0px;
+}
+
+/* /Add Job Modal */
+
+
