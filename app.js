@@ -13,7 +13,7 @@ function buildJob( job ){
 
 	//alert( "job details: "+job.name );
 	var jobMarkup = "";
-	jobMarkup += "<div class='row jl-today-row'>";
+	jobMarkup += "<div class='row jl-today-row jl-new-row'>";
 	jobMarkup += "<div class='col-sm-2 col-xs-2 jl-time'>";
 	jobMarkup += job.time;
 	jobMarkup += "</div>";

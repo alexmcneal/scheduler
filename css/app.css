@@ -122,6 +122,23 @@ Roboto Black - 900
 	font-size: 14px;
 }
 
+.jl-new-row {
+	-webkit-animation: target-fade 10s 1;
+	-moz-animation: target-fade 10s 1;
+	-o-animation: target-fade 10s 1;
+	animation: target-fade 10s 1;;
+}
+
+@-webkit-keyframes target-fade {
+  0% { background-color: rgba(255, 230, 126, 1); }
+  100% { background-color: rgba(255, 230, 126, 0); }
+}
+ 
+@-moz-keyframes target-fade {
+  0% { background-color: rgba(255, 230, 126, 1); }
+  100% { background-color: rgba(255, 230, 126, 0); }
+}
+
 /* /Job List Page */
 
 
